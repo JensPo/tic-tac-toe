@@ -50,6 +50,7 @@ button {
   background-color: white;
   border: none;
   color: #88d8b0;
+  font-weight: bold;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -68,6 +69,7 @@ button {
   border-radius: 50%;
   background-color: rgba(255,204,92, 0.8);
   text-align: center;
+  font-weight: bold;
   line-height: 390px;
   color: white;
   font-size: 3em;

@@ -73,7 +73,7 @@ function gameOver(gameWon) {
   cells.forEach((cell) => {
     cell.removeEventListener('click', turnClick, false);
   })
-  declareWinner(gameWon.player == huPlayer ? "you win!" : "you lose!");
+  declareWinner(gameWon.player == huPlayer ? "YOU WON" : "YOU LOST");
 }
 
 function declareWinner(who) {
